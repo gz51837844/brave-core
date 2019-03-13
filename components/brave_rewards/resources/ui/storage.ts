@@ -53,7 +53,8 @@ export const defaultState: Rewards.State = {
     adsPerHour: 0,
     adsUIEnabled: false,
     adsNotificationsReceived: 0,
-    adsEstimatedEarnings: 0
+    adsEstimatedEarnings: 0,
+    adsIsSupported: true
   },
   pendingContributionTotal: 0,
   grants: [],

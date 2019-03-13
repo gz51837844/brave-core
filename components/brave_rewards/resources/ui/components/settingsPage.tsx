@@ -41,6 +41,7 @@ class SettingsPage extends React.Component<Props, {}> {
     this.actions.getConfirmationsHistory()
     this.actions.getExcludedPublishersNumber()
     this.actions.getAdsData()
+    this.actions.getAdsIsSupportedRegion()
   }
 
   componentDidMount () {
